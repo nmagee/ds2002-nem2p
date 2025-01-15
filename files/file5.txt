@@ -1,0 +1,105 @@
+    1  clear
+    2  pwd
+    3  ls
+    4  ls -al
+    5  cd .
+    6  pwd
+    7  cd ..
+    8  pwd
+    9  cd ..
+   10  pwd
+   11  clear
+   12  ls -al
+   13  cd ~ 
+   14  clear
+   15  pwd
+   16  ls -al
+   17  clear
+   18  cd /workspaces/ds2002-nem2p/
+   19  cd /
+   20  cd workspaces/ds2002-nem2p/
+   21  ls -al
+   22  touch file1.txt
+   23  ls -al
+   24  touch file2.txt
+   25  touch file3.txt
+   26  clrst
+   27  vlrsg
+   28  clear
+   29  ls -al
+   30  echo "a man a plan a canal panama"
+   31  echo "a man a plan a canal panama" > file1.txt
+   32  ls -al
+   33  clear
+   34  cat file1.txt 
+   35  cat file1.txt > file2.txt 
+   36  cat file1.txt > file3.txt 
+   37  ls -al
+   38  echo "this should be a second line" >> file2.txt 
+   39  clear
+   40  cat file2.txt 
+   41  echo "this should be a second line" > file2.txt
+   42  cat file2.txt 
+   43  clear
+   44  ls -al
+   45  cat /dev/null > file3.txt 
+   46  ls -al
+   47  mkdir files
+   48  clear
+   49  ls -al
+   50  mv file1.txt files/
+   51  ls -a
+   52  ls -al
+   53  clear
+   54  ls -al
+   55  ls -al files/
+   56  clear
+   57  ls -al
+   58  touch file4.txt
+   59  touch file5.txt
+   60  cp file2.txt file6.txt
+   61  cp file3.txt file7.tt
+   62  ls -al
+   63  cleaer
+   64  clear
+   65  ls -al
+   66  mv file7.tt file7.txt
+   67  clear
+   68  ls -al
+   69  touch script.sh
+   70  touch myscript.py
+   71  clear
+   72  ls -al
+   73  mv file*.txt files/
+   74  ls -al
+   75  clear
+   76  cd files
+   77  ls -al
+   78  rm file7.txt 
+   79  ls -al
+   80  clear
+   81  cd ..
+   82  ls -al
+   83  clear
+   84  top
+   85  ps
+   86  clear
+   87  ps aux
+   88  ls -al
+   89  clear
+   90  cd files/
+   91  ls -al
+   92  ps aux > file6.txt 
+   93  ls -al
+   94  clear
+   95  ls -al
+   96  head file6.txt 
+   97  clear
+   98  head -n 3 file6.txt 
+   99  tail -n 2 file6.txt 
+  100  clear
+  101  history
+  102  ps aux
+  103  clear
+  104  ls -al
+  105  history > file5.txt 
